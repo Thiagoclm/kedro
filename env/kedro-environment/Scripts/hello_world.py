@@ -8,7 +8,7 @@ data_catalog = DataCatalog({'my_salutation':MemoryDataSet()})
 
 # First node
 def return_greeting():
-    return 'Hello'
+    return 'Hello dear'
 
 return_greeting_node = node(return_greeting, inputs=None, outputs='my_salutation')
 
